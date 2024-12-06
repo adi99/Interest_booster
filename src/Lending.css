@@ -1,0 +1,217 @@
+.lending-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lending-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .filter-btn {
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .wallet-checkbox {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .lending-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .lending-table th,
+  .lending-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .asset-cell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .asset-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+  }
+  
+  /* Updated Button Styles */
+  .deposit-btn {
+    background-color: #007aff; /* Original color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 16px; /* Increased padding */
+    cursor: pointer;
+    margin-right: 10px;
+    width: 120px; /* Fixed width */
+  }
+  
+  .withdraw-btn {
+    background-color: #28a745; /* Green color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 16px; /* Increased padding */
+    cursor: pointer;
+    width: 130px; /* Fixed width */
+  }
+  
+  .swap-btn {
+    background-color: #00b386;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .deposit-btn,
+  .withdraw-btn {
+    background-color: #007aff; /* Deposit button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .withdraw-btn {
+    background-color: #00b386; /* Withdraw button color */
+  }
+  
+  .action-header {
+    text-align: right; /* Align the action header to the right */
+    padding: 10px; /* Add padding for spacing */
+    font-weight: bold; /* Make the font bold */
+    background-color: #f9f9f9; /* Optional: same as the lending section */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .deposit-btn,
+  .withdraw-btn {
+    background-color: #007aff; /* Deposit button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .withdraw-btn {
+    background-color: #00b386; /* Withdraw button color */
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure modal is above other content */
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px; /* Increased padding for more space inside */
+    width: 500px; /* Increased width */
+    height: 400px; /* Increased height */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space evenly */
+  }
+  
+  /* Add this for responsiveness */
+  @media (max-width: 600px) {
+    .modal-content {
+      width: 90%; /* Allow modal to be responsive */
+      height: auto; /* Auto height for smaller screens */
+    }
+  }
+  
+  /* Button styles */
+  .max-btn {
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 10px; /* Space above */
+  }
+  
+  /* Hover effect for max button */
+  .max-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .max-amount {
+    color: #007bff; /* Change color to indicate it's clickable */
+    text-decoration: underline; /* Underline to signify it's a link */
+    cursor: pointer; /* Pointer cursor to indicate clickability */
+  }
+  
+  .max-amount:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .loans-section {
+    margin-top: 20px;
+  }
+  
+  .loans-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .loans-table th, .loans-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .loans-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .loans-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
+  
