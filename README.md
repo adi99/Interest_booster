@@ -1,4 +1,4 @@
-# APYboost
+# Interest_booster
 ## Inspiration 
 The inspiration for this project comes from low interest platform available on blockchain. I wanted to create a project which will produce larger Interest Rate without having too much risk.
 
