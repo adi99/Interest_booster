@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# APYboost
+## Inspiration 
+The inspiration for this project comes from low interest platform available on blockchain. I wanted to create a project which will produce larger Interest Rate without having too much risk.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What it does
+APYboost uses Flash loan (due to unavailability of Flash loan with JustLend it uses leverage by borrowing and reinvesting ) to multiply the interest rates up to 2.5 times.
 
-## Available Scripts
+## How we built it
+The frontend is built with javascript using Node-js. The backend smart contract is build with solidity language
 
-In the project directory, you can run:
+## Challenges we ran into
+When we started the project the plan was to get leverage using Flash loan. After trying for few days for flash loan in different Protocol on Tron Network we thought about changing method to get leverage to boost interest rate.
+So we come to a new method of borrowing and reinvesting the borrow, multiple time to boost the APY for sTRX on mainnet and JST on testnet. 
 
-### `npm start`
+## Accomplishments that we're proud of
+We have  tried it different chains from polygon to optimism with Flash loans and we are sucessfully achieved it. On Tron we have tried it using reinvesting but it was very hard to manage both energy and banwidth.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## What we learned
+I have learned to think about new way to find the solution of my problem
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What's next for APYboost
+Deployment on Mainnet and make it successful
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
